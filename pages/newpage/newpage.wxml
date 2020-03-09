@@ -1,0 +1,20 @@
+<view class="search">
+  <input placeholder="搜索"></input>
+  <icon type="search" size="15"></icon>
+</view>
+
+<view class="box">
+  <navigator class="item" wx:for="{{ list }}" wx:key="id" url="/pages/list/list?id={{ item.id }}">
+   <!-- url="/pages/list/list?id={{ item.id }}" -->
+    <image src="{{ item.images[0] }}"></image>
+    <view>
+      <text>标题:{{ item.name }}</text>
+      <text>电话：{{ item.phone }}</text>
+      <text>地址：{{ item.address }}</text>
+      <text>营业时间：{{ item.businessHours }}</text>
+    </view>
+  </navigator>
+</view>
+
+<button class="foot" loading wx:if="{{ hasMore }}">正在加载...</button> 
+<button class="foot" wx:else>客观没有了！！！</button> 

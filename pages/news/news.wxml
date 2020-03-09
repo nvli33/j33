@@ -1,0 +1,64 @@
+<!--pages/news/news.wxml-->
+<view class="box">
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+  <view class="div">
+    <text class="title">免费送票！！！</text>
+    <image src='/images/banner-01.png'></image>
+    <text class="foot">汇款缴费哈多久发货啦结婚</text>
+    <text class="foot">阅读全部</text>
+  </view>
+</view>

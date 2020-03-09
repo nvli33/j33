@@ -1,0 +1,53 @@
+/**index.wxss**/
+.box{
+  width: 100%;
+  /* width: 750rpx; */
+}
+.banner{
+  width: 100%;
+  height: 380rpx;
+}
+.banner swiper-item image{
+  width: 100%;
+  height: 380rpx;
+}
+.nav{
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav navigator{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250rpx;
+  height: 250rpx;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  box-sizing: border-box;
+}
+.nav navigator image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.nav navigator text{
+  display: block;
+  font-size: 28rpx;
+  color: #242424;
+  margin-top: 20rpx
+}
+.foot{
+  width: 100%;
+  height: 200rpx;
+  background: #fff;
+  margin-top: 10rpx;
+  display: flex;
+}
+.foot image{
+  height: 180rpx;
+  margin: 0 10rpx;
+  margin-top: 10rpx;
+}

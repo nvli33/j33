@@ -1,0 +1,64 @@
+/* pages/list/list.wxss */
+.box{
+  width: 100%;
+  /* width: 750rpx; */
+}
+.banner{
+  width: 100%;
+  height: 600rpx;
+}
+.banner swiper-item image{
+  width: 100%;
+  height: 600rpx;
+}
+.news{
+  width: 710rpx;
+  background: #fff;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx;
+}
+
+.title{
+  width: 100%;
+  font-size: 40rpx;
+}
+
+.news text{
+  width: 100%;
+  margin: 0 10rpx;
+  /* font-size:26rpx  */
+  color: #333
+}
+.zt{
+  font-size: 32rpx
+}
+
+.details{
+  width: 700rpx;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  padding: 25rpx;
+}
+
+.details>text:nth-child(1){
+  font-size: 36rpx;
+  color: 333
+}
+
+.details>text:nth-child(2){
+  font-size: 30rpx;
+  color: 333
+}
+.imgBox{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap
+}
+.imgBox image{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx 10rpx;
+}

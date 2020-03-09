@@ -1,0 +1,52 @@
+<!--pages/list/list.wxml-->
+<view class="box">
+<swiper class="banner">
+    <!-- <swiper-item  wx:for="{{ list.images }}"  wx:key="id" >
+      <image src="{{ item }}" mode="aspectFill" bindtap="fatimg" data-imgsrc="{{ item }}" data-imglist="{{ list.images }}"></image>
+    </swiper-item> -->
+
+    <swiper-item wx:for="{{ list.images }}" wx:key="id">
+      <image src="{{ item }}" mode="aspectFill" bindtap="fatimg" data-imgsrc="{{ item }}" data-imgslist="{{ list.images }}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="news">
+    <text class="title">{{ list.name }}</text>
+    <text class="zt">电话：{{ list.phone }}</text>
+    <text class="zt">地址:{{ list.address }}</text>
+  </view>
+
+  <!-- <view class="details" wx:for="{{ list.comments }}" wx:key="id">
+    <text>{{ item.name }}</text>
+    <text>{{ item.content }}</text>
+    <view class="imgBox">
+      <image wx:for="{{ item.images }}" wx:key="id" src="{{util.srcsize(item)}}"></image>
+    </view>
+  </view> -->
+
+
+  <view class="details" wx:for="{{ list.comments }}" wx:key="id">
+    <text>{{ item.name }}</text>
+    <text>{{ item.content }}</text>
+    <view class="imgBox">
+      <image wx:for="{{item.images}}" wx:key="id" src="{{util.srcsize(item)}}"></image>
+    </view>
+  </view>
+
+
+</view>
+
+<wxs module="util">
+  module.exports={
+    srcsize:function(url){
+      return url.replace("w.h","100.100")
+    }
+  }
+</wxs>
+
+<!-- <wxs module="util">
+  module.exports={
+    srcsize:function(url){
+      return url.replace("w.h","100.100")
+    }
+  }
+</wxs> -->
